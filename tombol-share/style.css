@@ -1,0 +1,61 @@
+/*
+	Pudin Saepudin
+*/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+  --main-color-txt-link: #2a2e62;  
+}
+
+a{
+	text-decoration: none;
+	color: var(--main-color-txt-link);
+}
+
+body{
+	font-family: sans-serif;
+}
+
+.berbagi{
+	width:80%;
+	margin: 20px auto;
+}
+.berbagi h2{
+	font-size: 1.2em;
+	margin-bottom: 0.5em;
+	color: var(--main-color-txt-link);
+}
+
+.berbagi ul{
+	display: flex;
+	list-style: none;
+	border-radius: 3px;
+	border: 1px solid #ecf0f1;
+	line-height:22px;
+	margin:0px;
+	padding:0px;
+	align-items: center;
+}
+.berbagi ul li{
+	flex: 1;
+	text-align:center;
+	border-right:1px solid #ecf0f1;
+	transition: .4s;
+}
+
+.berbagi ul li:hover{
+	background-color:#ecf0f1;
+	color:#fff;
+	transform: scale(1.2);
+}
+
+.berbagi ul li a{
+	font-size: 1em;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
